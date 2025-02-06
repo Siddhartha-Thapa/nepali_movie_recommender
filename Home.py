@@ -16,7 +16,7 @@ from datetime import datetime
 
 # Initialize Firestore (using the same function from main.py)
 def init_firestore():
-    service_account_key = "nepali-movie-recommender-firebase-adminsdk-pl76i-f9b872abb7.json"
+   
     return firestore.Client.from_service_account_json(service_account_key)
 firebaseConfig = {
   'apiKey': "AIzaSyDFk5VfMxtlPlQ0aU3jR33Q5kLYw-bvfTE",
