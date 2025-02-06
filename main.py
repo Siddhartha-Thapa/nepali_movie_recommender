@@ -19,7 +19,7 @@ firebaseConfig = {
 
 def init_firestore():
     # Path to your service account key
-    service_account_key = "nepali-movie-recommender-firebase-adminsdk-pl76i-f9b872abb7.json"
+    
     return firestore.Client.from_service_account_json(service_account_key)
 
 #firebase authentication
