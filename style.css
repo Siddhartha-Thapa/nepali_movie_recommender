@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom Backgrounds */
+[data-testid="stSidebar"] {
+  
+    
+    background-color: #e6dace;
+    color: white;
+    padding: 20px;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(0, 0, 0, 0);
+}
+
+[data-testid="stMain"] {
+    padding: 20px;
+    background-color: #e4dfdc ;
+    
+}
+
+/* Titles & Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background-color: #c4b7a9 !important;
+
+    color: black !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color:white!important;
+}
+
+/* Inputs */
+input, select, textarea {
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+}
+
+/* Sidebar Links */
+[data-testid="stSidebar"] a {
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+[data-testid="stSidebar"] a:hover {
+    text-decoration: none !important;
+    background-color: #e4dfdc;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Card Style for Content */
+.st-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+video{
+    padding: 10px 20px !important;
+    transition: 0.3s;
+}
+video:hover{
+    background-color: #c4b7a9;
+}
+.movie {
+    
+    padding: 10px;
+    text-align: center;
+    
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.movie:hover {
+    transform: scale(1.05);
+    background: #e9c46a;
+}
+
+.movie iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.movie p {
+    margin-top: 10px;
+    font-size: 16px;
+}
