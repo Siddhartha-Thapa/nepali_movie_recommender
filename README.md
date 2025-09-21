@@ -98,6 +98,9 @@ A web application for recommending Nepali movies, built with [Streamlit](https:/
 
 ## Screenshots
 ![App Screenshot](demo1.jpeg)
+![App Screenshot](demo2.jpeg)
+![App Screenshot](demo3.jpeg)
+![App Screenshot](workflow.jpeg)
 
 ## Troubleshooting
 
